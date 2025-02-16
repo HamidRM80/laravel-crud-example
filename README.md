@@ -10,3 +10,12 @@ You can install this package via Composer:
 
 ```bash
 composer require hamidreza/laravel-crud-example
+```
+then add below code to bootstrap/providers.php:
+```php
+return [
+    App\Providers\AppServiceProvider::class,
+    Hamidreza\LaravelCrudExample\PostServiceProvider::class,
+];
+```
+
