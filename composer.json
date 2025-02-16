@@ -12,6 +12,9 @@
         }
     ],
     "require": {
-        "illuminate/support": ">=v8.0.0"
-    }
+        "illuminate/support": ">=v8.0.0",
+        "hamidreza/laravel-crud-example": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
