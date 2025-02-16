@@ -32,6 +32,4 @@ DB_DATABASE=laravel
 ```bash
 php artisan serve
 ```
-6. you can use project by below url:
-post/index
-
+6. you can use project by this url: post/index
