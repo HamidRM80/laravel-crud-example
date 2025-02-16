@@ -9,7 +9,7 @@ This package provides an example of Post CRUD operations in Laravel. It includes
 ### Via Packagist
 
 ```bash
-composer require hamidreza/laravel-crud-example
+composer require hamidreza/laravel-crud-example:dev-main
 ```
 2. then add below code to bootstrap/providers.php:
 ```php
