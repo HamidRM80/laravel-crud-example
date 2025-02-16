@@ -32,4 +32,16 @@ DB_DATABASE=laravel
 ```bash
 php artisan serve
 ```
-6. you can use project by this url: post/index
+6. connect to your mysql database
+7. add below code to app/providers/AppServiceProvider.php file in boot function and import it's Schema class from Facades:
+```php
+public function boot(): void
+    {
+        Schema::defaultStringLength(191);
+    }
+```
+8. run below commands for create migrations:
+```bash
+php artisan migrate
+```
+9. you can use project by this url: post/index
